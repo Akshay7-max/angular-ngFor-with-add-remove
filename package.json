@@ -1,8 +1,11 @@
 {
   "name": "project2",
   "version": "0.0.0",
+  "homepage": "https://Akshay7-max.github.io/angular-ngFor-with-add-remove",
   "scripts": {
     "ng": "ng",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
